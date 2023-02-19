@@ -1,0 +1,18 @@
+{
+  "name": "imc_calculator",
+  "version": "1.0.0",
+  "description": "Simple imc calculator using typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup ./src",
+    "dev": "tsx watch ./src/main",
+    "start": "node ./dist/main"
+  },
+  "keywords": [],
+  "author": "WiliamMota",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.6.2",
+    "tsx": "^3.12.3"
+  }
+}
